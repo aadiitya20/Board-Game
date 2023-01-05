@@ -1,0 +1,114 @@
+The output
+
+/Users/adityapatel/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64631:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/adityapatel/Desktop/Assignment1/out/production/Assignment1 GameDemo
+Enter a command (type help for details):
+
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+jedi
+Input a color for the new piece:
+Red
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -   jediRedFF  -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+move 7 7 up 2
+java.awt.Point[x=7,y=7]
+java.awt.Point[x=7,y=5]
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -   jediRedFF  -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+exit
+Done.
+
+Process finished with exit code 0
+
+My output
+
+/Users/adityapatel/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64640:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/adityapatel/Desktop/Assignment1/out/production/Assignment1 GameDemo
+Enter a command (type help for details):
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+create 2 2 fast flexible
+Input a name for the new piece:
+adi
+Input a color for the new piece:
+pink
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -   adipinkFF  -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+move 2 2 down 1
+java.awt.Point[x=2,y=2]
+java.awt.Point[x=2,y=3]
+Enter a command (type help for details):
+print
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -   adipinkFF  -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+  -     -     -     -     -     -     -     -
+Enter a command (type help for details):
+exit
+Done.
+
+Process finished with exit code 0
